@@ -1,0 +1,8 @@
+.perfil__foto{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    order: 2;
+    border-radius: 100%;
+    margin-left: 15px;
+}

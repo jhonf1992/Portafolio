@@ -1,0 +1,20 @@
+.navegacion{
+    display: flex;
+    
+}
+
+.navegacion__lista {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.lista__items{
+    display: flex;
+    margin-left: 15px;
+    list-style: none;   
+}
+
+.lista__items a{
+    text-decoration: none;
+    color: black;
+}

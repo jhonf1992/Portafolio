@@ -1,0 +1,12 @@
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.hobbies-container{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}

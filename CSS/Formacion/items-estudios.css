@@ -1,0 +1,40 @@
+.formacion-item{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    height: auto;
+    margin-bottom:35px ;
+    
+}
+.item-imagen{
+    display: flex;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.formacion-item img{
+    background-color: white;
+    width: 200px;
+    margin: 50px;
+}
+.formacion-item li{
+    list-style: none;
+}
+
+.formacion-item li h3{
+    background: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.formacion-item li p{
+    background: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 10px;
+}
