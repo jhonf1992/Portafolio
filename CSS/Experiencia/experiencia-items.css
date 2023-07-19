@@ -2,18 +2,22 @@
     display: flex;
     flex-direction: column;
     width: 30%;
+    height: 15rem;
     justify-content: center;
     transition: 700ms;
+    /* background-color: white; */
     
 }
 .experiencia-caja-titulo{
     font-size: 1.2rem;
     font-weight: bold;
     margin: 5px 10px;
+    transition: 500ms;
 }
 .experiencia-descripcion{
     font-size: 0.9rem;
     margin: 5px 10px;
+    transition: 500ms;
 }
 .experiencia-botones{
     margin: 10px;
@@ -51,14 +55,29 @@
     transition: 500ms; 
 }
 .button1:hover{
-    transform: scale(1.1);
+    
     box-shadow: 2px 2px 2px rgba(170, 168, 168, 0.604);
+    width: 6.8rem;
+    height: 1.7rem;
 }
 .button2:hover{
-    transform: scale(1.1);
+    
     box-shadow: 2px 2px 2px rgba(128, 127, 127, 0.747);
-
+    width: 6.8rem;
+    height: 1.7rem;
 }
 .experiencia-items:hover{
-    transform: scale(1.02);
+    width: 31%;
+    height: 16rem;
+    
+}
+
+.experiencia-caja-titulo:hover{
+    font-size: 1.25rem;
+    
+    
+}
+.experiencia-descripcion:hover{
+    font-size: 0.95rem;
+    
 }

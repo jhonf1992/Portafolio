@@ -18,6 +18,7 @@
 }
 
 .experiencia-img:hover{
-    transform: scale(1.05);
+    width: 67%;
+    height: 29rem;
     box-shadow: 5px 5px 5px rgba(117, 116, 116, 0.199);
 }
