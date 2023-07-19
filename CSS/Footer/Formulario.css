@@ -1,0 +1,68 @@
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+}
+.contacto-titulo{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+}
+.contacto-descripcion{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.formulario{
+    display: flex;
+    width: 48vw;
+}
+.formulario-lista{
+    display: flex;
+    flex-direction: column;
+    width: 43vw;
+}
+.input{
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    outline-color: #1f4c88;
+}
+::placeholder:focus{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+}
+.textarea{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    height: 100px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    outline-color: #1f4c88;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    text-decoration: none;
+    background-color: #2A7AE4;
+    width: 9rem;
+    height: 2rem;
+    border: #2A7AE4 solid;
+    font-size: 00.95rem;
+    color: white;
+    transition: ease-in-out 300ms;
+}
+.boton:hover{
+    width: 9.2rem;
+    height: 2.1rem;
+    box-shadow: 2px 2px 2px rgb(99, 97, 97);
+}

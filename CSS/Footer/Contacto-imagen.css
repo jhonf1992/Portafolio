@@ -1,0 +1,9 @@
+.contacto-imagen{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-imagen img{
+    width: 30vw;
+}
