@@ -1,0 +1,23 @@
+.experiencia-img{
+    display: flex;
+    width: 66%;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    height: 28rem;
+    border-radius: 4%;
+    transition: ease-in-out 700ms;
+}
+
+.experiencia-img img{
+    width: 96%;
+    height: 94%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+.experiencia-img:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(117, 116, 116, 0.199);
+}

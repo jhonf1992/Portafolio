@@ -1,0 +1,64 @@
+.experiencia-items{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    transition: 700ms;
+    
+}
+.experiencia-caja-titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 10px;
+}
+.experiencia-descripcion{
+    font-size: 0.9rem;
+    margin: 5px 10px;
+}
+.experiencia-botones{
+    margin: 10px;
+    display: flex;
+}
+[type="button"]{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
+.button1{
+    display: flex;
+    margin-right: 5px;
+    color: #2A7AE4;
+    border: #2A7AE4 solid ;
+    width: 6.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+
+}
+
+.button2{
+    margin-left: 5px;
+    background-color: #2A7AE4;
+    color: white;
+    width: 6.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #2A7AE4 solid;
+    transition: 500ms; 
+}
+.button1:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgba(170, 168, 168, 0.604);
+}
+.button2:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgba(128, 127, 127, 0.747);
+
+}
+.experiencia-items:hover{
+    transform: scale(1.02);
+}

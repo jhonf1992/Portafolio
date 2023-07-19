@@ -1,0 +1,10 @@
+.experiencia-caja{
+    display: flex;
+    width: 93vw;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    
+}
