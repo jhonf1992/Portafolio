@@ -29,6 +29,7 @@
 .item-imagen:hover{
     width: 30rem;
     height: 22rem;
+    box-shadow: 7px 7px 7px rgba(136, 134, 134, 0.368);
 }
 .formacion-item img{
     background-color: white;
