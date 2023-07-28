@@ -1,24 +1,25 @@
 .formacion-item{
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: auto;
+    width: 25rem;
+    height: 30rem;
     margin: 30px 30px 20px;
     transition: 500ms ease-in-out;  
     justify-content: center;
     align-items: center;
     transition: 800ms ease-in-out;
+    /* background-color: aqua; */
 }
 .formacion-item:hover{
-    width: 490px;
-    height: 520px;
+    width: 27rem;
+    height: 32rem;
 }
 
 
 .item-imagen{
     display: flex;
-    width: 450px;
-    height: 300px;
+    width: 25rem;
+    height: 19rem;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -26,8 +27,8 @@
     transition: 800ms ease-in-out;
 }
 .item-imagen:hover{
-    width: 450px;
-    height: 350px;
+    width: 30rem;
+    height: 22rem;
 }
 .formacion-item img{
     background-color: white;
