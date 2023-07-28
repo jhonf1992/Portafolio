@@ -18,3 +18,11 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    .navegacion .navegacion__lista{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

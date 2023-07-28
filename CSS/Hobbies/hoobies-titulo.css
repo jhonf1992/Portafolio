@@ -5,4 +5,8 @@
     font-weight: bold;
     text-align: center;
     justify-content: center;
+    transition: 400ms ease-in-out;
+}
+.hobbies__titulo:hover{
+    font-size: 1.7rem;
 }

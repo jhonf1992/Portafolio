@@ -1,0 +1,12 @@
+.copyringht{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-weight: 500;
+}

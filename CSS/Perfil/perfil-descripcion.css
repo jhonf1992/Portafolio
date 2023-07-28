@@ -1,3 +1,9 @@
 .perfil__descripcion{
     margin-top: 20px;
 }
+
+@media screen and (max-width:900px) {
+    .perfil__descripcion{
+        text-align: center;
+    }
+}

@@ -9,3 +9,10 @@
     align-items: center;
     background: url("") ;
 }
+
+
+@media screen and (max-width: 900px) {
+    .perfil{
+        flex-direction: column;
+    }
+}

@@ -2,3 +2,13 @@
     display: flex;
     width: 95vw;
 }
+
+@media screen and (max-width:900px) {
+    .contacto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}

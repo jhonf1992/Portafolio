@@ -1,7 +1,9 @@
 .estudios{
     display: flex;
     height: auto;
-    padding: 70px;
+    padding: 50px;
     flex-direction: column;
     background-color: #eaf2fd;
 }
+
+

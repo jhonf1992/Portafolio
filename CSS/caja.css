@@ -8,8 +8,12 @@
     justify-content: flex-end;
     align-items: flex-start;
     background-color: #ffffff;
+    transition: 300ms ease-in-out;
 }
-
+.caja:hover{
+    width: 165px;
+    height: 165px;
+}
 .caja li{
     list-style: none;
 }

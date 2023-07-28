@@ -6,3 +6,11 @@
     margin-top: 20px;
     text-align: left;
 }
+
+@media screen and (max-width:900px) {
+    .sobre{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}

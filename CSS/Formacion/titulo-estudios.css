@@ -6,4 +6,8 @@
     font-weight: bold;
     text-align: center;
     justify-content: center;
+    transition: 400ms ease-in-out;
+}
+.titulo_estudios:hover{
+    font-size: 1.7rem;
 }
