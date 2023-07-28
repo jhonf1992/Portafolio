@@ -25,6 +25,9 @@
 
 @media screen and (max-width:900px) {
     .experiencia-img{
+        width: 90vw;
+    }
+    .experiencia-img:hover{
         width: 95vw;
     }
 }
