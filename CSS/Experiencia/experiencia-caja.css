@@ -11,5 +11,6 @@
 @media screen and (max-width:900px) {
     .experiencia-caja{
         flex-direction: column;
+        
     }
 }
